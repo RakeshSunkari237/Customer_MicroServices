@@ -1,12 +1,12 @@
 package com.customer.service.impl;
 
+
 import java.util.Optional;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.customer.dto.CustomerDTO;
 import com.customer.dto.CustomerRegisterDTO;
 import com.customer.entity.Customer;
 import com.customer.repository.CustomerRepository;
